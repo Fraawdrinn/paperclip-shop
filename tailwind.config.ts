@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const plugin = require('tailwindcss/plugin');
 
 export default {
   content: [
@@ -11,6 +12,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      animationDelay: {
+        '100': '100ms',
+        '200': '200ms',
+        '500': '500ms',
       },
     },
   },
