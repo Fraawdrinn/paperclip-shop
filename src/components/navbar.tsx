@@ -21,9 +21,13 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
       </ul>
-      <input type="checkbox" role="button" aria-label="Display the menu" className="menu md:hidden" />
+      <div>
+        <input type="checkbox" role="button" aria-label="Display the menu" className="menu md:hidden" />
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
+
+
